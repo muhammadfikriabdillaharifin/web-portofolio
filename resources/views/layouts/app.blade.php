@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Test Coding After 2 Years!!
-    </h1>
+    @include('partial.header')
+    @yield('content')
+    @include('partial.footer')
     <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
 </body>
 
